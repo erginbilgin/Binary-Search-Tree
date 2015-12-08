@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816B5BD51C01A00000E76B92 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B5BD41C01A00000E76B92 /* main.swift */; };
+		816B5BDE1C01A04500E76B92 /* MyTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B5BDD1C01A04500E76B92 /* MyTree.swift */; };
+		81BC50B41C16B70200022C4F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC50B31C16B70200022C4F /* Student.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		816B5BCF1C01A00000E76B92 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		816B5BD11C01A00000E76B92 /* Binary Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816B5BD41C01A00000E76B92 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		816B5BDD1C01A04500E76B92 /* MyTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTree.swift; sourceTree = "<group>"; };
+		81BC50B31C16B70200022C4F /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816B5BCE1C01A00000E76B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816B5BC81C01A00000E76B92 = {
+			isa = PBXGroup;
+			children = (
+				816B5BD31C01A00000E76B92 /* Binary Tree */,
+				816B5BD21C01A00000E76B92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816B5BD21C01A00000E76B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816B5BD11C01A00000E76B92 /* Binary Tree */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816B5BD31C01A00000E76B92 /* Binary Tree */ = {
+			isa = PBXGroup;
+			children = (
+				816B5BD41C01A00000E76B92 /* main.swift */,
+				816B5BDD1C01A04500E76B92 /* MyTree.swift */,
+				81BC50B31C16B70200022C4F /* Student.swift */,
+			);
+			path = "Binary Tree";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816B5BD01C01A00000E76B92 /* Binary Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816B5BD81C01A00000E76B92 /* Build configuration list for PBXNativeTarget "Binary Tree" */;
+			buildPhases = (
+				816B5BCD1C01A00000E76B92 /* Sources */,
+				816B5BCE1C01A00000E76B92 /* Frameworks */,
+				816B5BCF1C01A00000E76B92 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binary Tree";
+			productName = "Binary Tree";
+			productReference = 816B5BD11C01A00000E76B92 /* Binary Tree */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816B5BC91C01A00000E76B92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ergin Bilgin";
+				TargetAttributes = {
+					816B5BD01C01A00000E76B92 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 816B5BCC1C01A00000E76B92 /* Build configuration list for PBXProject "Binary Tree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 816B5BC81C01A00000E76B92;
+			productRefGroup = 816B5BD21C01A00000E76B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816B5BD01C01A00000E76B92 /* Binary Tree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816B5BCD1C01A00000E76B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816B5BD51C01A00000E76B92 /* main.swift in Sources */,
+				81BC50B41C16B70200022C4F /* Student.swift in Sources */,
+				816B5BDE1C01A04500E76B92 /* MyTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		816B5BD61C01A00000E76B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		816B5BD71C01A00000E76B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		816B5BD91C01A00000E76B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		816B5BDA1C01A00000E76B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816B5BCC1C01A00000E76B92 /* Build configuration list for PBXProject "Binary Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816B5BD61C01A00000E76B92 /* Debug */,
+				816B5BD71C01A00000E76B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816B5BD81C01A00000E76B92 /* Build configuration list for PBXNativeTarget "Binary Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816B5BD91C01A00000E76B92 /* Debug */,
+				816B5BDA1C01A00000E76B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816B5BC91C01A00000E76B92 /* Project object */;
+}
